@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytube = "*"
+transformers = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "<0.12"
+datasets = "*"
+pysoundfile = "*"
+librosa = "*"
+moviepy = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+isort = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"
